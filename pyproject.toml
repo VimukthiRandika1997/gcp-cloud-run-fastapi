@@ -1,0 +1,18 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.118.0",
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+    "uvicorn>=0.37.0",
+]
+
+[dependency-groups]
+dev = [
+    "pylint>=3.3.8",
+    "pytest>=8.4.2",
+]
